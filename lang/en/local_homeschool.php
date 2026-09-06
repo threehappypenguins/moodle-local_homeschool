@@ -72,6 +72,11 @@ $string['opencourse'] = 'Open course';
 $string['multiselecthint'] = 'Multiple activities selected — completion and submission settings are locked on those rows. Use the date controls above (or each row’s date) to set or clear timeline reminders.';
 $string['showalllist'] = 'Show all courses/activities in one list';
 $string['showallactivities'] = 'Show all courses/activities in one list';
+$string['currentlyonheading'] = 'Currently on';
+$string['currentdaynone'] = 'No completed work yet';
+$string['incompletedaysheading'] = 'Incomplete days';
+$string['incompletedaysnone'] = 'None';
+$string['incompletedayitem'] = '{$a->day} ({$a->count} left)';
 $string['sharedchildrenheading'] = 'Shared: {$a}';
 $string['sharedcoursebadge'] = 'Shared';
 $string['nochildrenforcourse'] = 'No enrolled children';
@@ -100,6 +105,20 @@ $string['deleteactivity'] = 'Delete {$a}';
 $string['deleteselected'] = 'Delete selected';
 $string['activitydeleted'] = 'Deleted {$a}.';
 $string['activitiesdeleted'] = 'Deleted {$a} activities.';
+
+// Clear reminder dates.
+$string['clearreminderstitle'] = 'Clear reminder dates';
+$string['clearreminderslink'] = 'Clear reminder dates';
+$string['clearremindersintro'] = 'Choose a course, then select the days whose timeline reminder dates you want to remove. This does not change completion tracking, requirements, or whether work is marked as done. Use this when you reuse a course at the start of a new year.';
+$string['clearremindersnone'] = 'This course has no activities you can manage.';
+$string['clearremindersnodates'] = 'No timeline reminder dates are set in this course.';
+$string['clearselecteddates'] = 'Clear selected dates';
+$string['clearremindersconfirm'] = 'Clear timeline reminder dates from {$a->count} activities in {$a->course}? Completion settings will not change.';
+$string['clearremindersconfirmbutton'] = 'Clear dates';
+$string['clearremindersdone'] = 'Cleared timeline reminders on {$a} activities.';
+$string['clearremindersnoneselected'] = 'Select at least one day with a reminder date.';
+$string['clearremindersinvalidcourse'] = 'Select a valid course.';
+$string['multipledates'] = 'Multiple dates';
 
 // Schedule shift.
 $string['shifttitle'] = 'Shift dates';
@@ -169,5 +188,4 @@ $string['progresssubmitted'] = 'Submitted';
 $string['progressnotsubmitted'] = 'Not submitted';
 $string['progressdraft'] = 'Draft in progress';
 $string['progressattempted'] = '{$a} attempt(s)';
-$string['progressnotstarted'] = 'Not started';
 $string['progressincomplete'] = 'Incomplete';
