@@ -4,7 +4,7 @@ Parent/teacher dashboard for planning and managing day-based coursework across D
 
 ## Requirements
 
-- Moodle 5.0+ (see `version.php`)
+- Moodle 5.2–5.3 (see `version.php`)
 - [format_daysections](https://github.com/YOURUSER/moodle-format_daysections) 1.0.0+
 
 ## Install
